@@ -1,0 +1,88 @@
+
+/* This is a partial blocks.css, you need to add more rules
+   to this file to complete the assignment.  Do not add any CSS
+   styling to the original index.htm / start.htm */
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Here is one of many  CSS rules you will need... */
+/*p{
+    position: fixed;
+    padding-left: 45%;
+    margin-top: 100px;
+}*/
+#three {
+    border-style: solid;
+    border-color: darkorange;
+    border-width: 5px;
+    padding: 5px;
+    margin: 5px;
+    width: 25%;
+    position: fixed;
+    z-index: 5;
+    text-align: left;
+    top: 0;
+	left: 0;
+}
+#two {
+    border-style: solid;
+    border-color: forestgreen;
+    border-width: 5px;
+    padding: 5px;
+    margin: 5px;
+    width: 25%;
+    position: fixed;
+    z-index: 5;
+    text-align: left;
+    top: 0;
+	right: 0;
+}
+#one {
+    border-style: solid;
+    border-color: blue;
+    border-width: 5px;
+    padding: 5px;
+    margin: 5px;
+    width: 25%;
+    position: fixed;
+    z-index: 5;
+    text-align: left;
+    bottom: 0;
+	right: 0;
+}
+#four {
+    border-style: solid;
+    border-color:yellow;
+    border-width: 5px;
+    padding: 5px;
+    margin: 5px;
+    width: 25%;
+    position: fixed;
+    z-index: 5;
+    text-align: left;
+    bottom: 0;
+	left: 0;
+}
+
+#link {
+	width: 50%;
+	display: inline-block;
+	margin: 0;
+}
+
+#link a {
+	display: inline-block;
+	background-color: #4663cd;
+	color: #fefefe;
+	padding: 5px 3px;
+	font-size: 14px;
+	line-height: 20px;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #3c58c7;
+	font-weight: 500;
+}
