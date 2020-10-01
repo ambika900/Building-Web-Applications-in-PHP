@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>Ambika Patidar</title>
-<?php require_once "bootstrap.php"; ?>
+<?php include "bootstrap.php"; ?>
 </head>
 <body>
 <div class="container">
